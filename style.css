@@ -117,10 +117,14 @@ nav ul ::after {
         left: 40%;
     }
     .bottom-menu {
-        position: relative;
-        margin-top: 20vh;
-        padding: 2px 0;
-        bottom: 25px;
+    position: relative;
+    margin-top: 18vh;
+    padding: 2px 0;
+    bottom: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
     }
 }
 @media (max-width:540px){
